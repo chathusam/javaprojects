@@ -1,0 +1,81 @@
+body { 
+		
+	background:url(Plain-Black-Facebook-Timeline-Cover.jpg);
+	background-repeat :repeat;
+	background-size:100%;
+	font-family:sans-serif;
+	
+     }
+	
+	img{
+			/*border:4px solid black;*/
+			margin-left:500px;
+			margin-top:50px;
+			width:300px;
+			height:40 0px;
+			padding: 10px 10px;
+
+			 
+		}
+		
+		td{
+			font-size: 15px;
+			color:white;
+			
+		}
+		
+		ul.gallery{    
+		margin-left: 3vw;     
+		margin-right:3vw;  
+		}    
+
+		.zoom {      
+			-webkit-transition: all 0.30s ease-in-out;    
+			-moz-transition: all 0.30s ease-in-out;    
+			transition: all 0.30s ease-in-out;     
+			cursor: -webkit-zoom-in;      
+			cursor: -moz-zoom-in;      
+			cursor: zoom-in;  
+			}     
+
+			.zoom:hover,  
+			.zoom:active,   
+			.zoom:focus {
+			-ms-transform: scale(1.5);    
+			-moz-transform: scale(1.5);  
+			-webkit-transform: scale(1.5);  
+			-o-transform: scale(1.5);  
+			transform: scale(1.5);    
+			position:relative;      
+			z-index:100;  
+				}
+
+			@media only screen and (max-width: 768px) {   
+			ul.gallery {      
+			margin-left: 15vw;       
+			margin-right: 15vw;
+			}
+
+			.DivName {cursor: pointer}	
+			}
+				
+		    .sub{
+     		font-size:15px;
+     		color:white;
+     		background-color: transparent; 
+     		border:1px solid;
+     		padding:2px;
+     		margin-left:490px;
+     		cursor: pointer;
+   		  }
+   	  
+   	 	 .sub1{
+     		font-size:15px;
+     		color:white;
+     		background-color: transparent; 
+     		border:1px solid;
+     		/*padding:3px;*/
+     		margin-left:10px;
+     		cursor: pointer;
+   	  }
+   		  

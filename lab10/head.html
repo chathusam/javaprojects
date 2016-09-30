@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Impressions </title>
+<link rel="icon" href="Logo-black.png" type="image/png">
+ <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+   .searchBar {
+    width: 130px;
+    
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 12px 12px 40px;
+    margin-top:6px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.searchBar:focus {
+    width: 100%;
+  }
+</style>
+<body>
+<nav class="navbar navbar-inverse" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Category <span class="caret"> </span> </a>
+          <ul class="dropdown-menu">
+            <li><p style="margin-left: 6px;">Women</p>
+            	<ul><li><a href="blouse1.php"> Blouse</a></li>
+            		<li><a href="dress1.php"> Dresses</a></li>
+            		<li><a href="trouser1.php"> Trousers</a></li>
+            	</ul>
+            </li>
+            <li>
+            	<p style="margin-left: 6px;">Men</p>
+            	<ul><li><a href="tshirt1.php"> T-Shirts</a></li>
+            		<li><a href="shirt1.php"> Shirts</a></li>
+            		<li><a href="trouser1.php"> Trousers</a></li>
+            	</ul>
+            </li>
+          </ul>
+        </li>
+        
+          <form method="post" action="chathu.php">
+    	<li><input type="text" placeholder="Search" name="sea" class="searchBar"></li> 
+        <input type="submit" value="search" name="search" />
+       </form>
+       
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="reg.php"><span class="fa fa-user"> </span> Sign Up</a></li>
+        <li><a href="login.php"><span class="fa fa-sign-in"> </span> Login</a></li>
+        <li><a href="login.php"><span class="fa fa-shopping-cart"> </span> Cart</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+</head>
+</body>

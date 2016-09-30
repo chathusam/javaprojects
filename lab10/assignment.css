@@ -1,0 +1,129 @@
+.button {
+    background-color: #0000BB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {border-radius: 4px;
+font-family:MS Reference Sans Serif;}
+
+
+.button3{
+	background-color:#0000BB;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+	border-radius: 4px;
+	font-family:Georgia pro;
+}
+
+.FONT{
+	font-style:normal;
+	font-family:Georgia Pro;
+	font-size:17px;
+	
+	
+}
+
+.textboxsize{
+	height:25px;
+	 border: 1px solid powderblue;
+	 font-family:Georgia Pro;
+	
+	 
+	
+}
+
+
+.linkstyle{
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+#row{
+	
+	margin-top:-10px;
+}
+.cards{
+	font-size:17px;
+	font-weight:bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+td{font-family:MS Reference Sans Serif;
+font-weight: bold;
+padding:10px;
+margin:15px;
+}
+
+.orderplacementtext{
+	width:250px;
+	height:25px;
+	 border: 1px solid powderblue;
+	 font-family:Georgia Pro;
+}
+
+.submitInOrder{
+	 width: 320px;
+    background-color: #0000BB;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:larger;
+    font-family: Georgia Pro;
+	
+}
+
+.ordertable{
+	padding:10px;
+	margin:20px;
+	
+	
+}
+
+body{
+			
+			background-repeat: repeat-y;
+			background-size: 100%
+			
+		}
+		
+		.orderDetails{
+			background-color: green;
+			height: 90px;
+			margin-left: 300px;
+			margin-right: 300px;
+			padding-bottom: 20px;
+			margin-bottom: 15px;
+			padding-top;10px
+			
+			
+		}
+		
+
